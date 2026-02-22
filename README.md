@@ -12,3 +12,40 @@
 - スコアは名前、日時と共に上位10位のランキングに記録される
 - ゲーム中はいつでもポーズ（一時停止）でき、トップ画面に戻れる
 
+## 画面構成
+```
+トップ画面
+ ├─ [スタートボタン] ─> ゲーム画面
+ └─ [スコアボタン] ─> スコア画面
+
+ゲーム画面
+ └─ Pose中 ─> [トップに戻るボタン] ─> トップ画面
+
+スコア画面
+ └─ [戻るボタン] ─> トップ画面
+```
+
+## 技術スタック
+- エンジン : Unreal Engine 5.7
+- アーキテクチャ : オニオンアーキテクチャ, DDD
+
+## フォルダ構成
+
+```
+Content/
+ ├─ Domain/
+ ├─ DomainService/
+ ├─ Application/
+ ├─ Infrastructure/
+ ├─ Presentation/
+ ├─ Level/
+ └─ Assets/
+```
+
+## ドキュメント
+
+| ファイル | 内容 |
+|---|---|
+| [Docs/domain.md](Docs/domain.md) | ユビキタス言語・ドメインモデル・境界づけられたコンテキスト |
+| [docs/architecture.md](docs/architecture.md) | アーキテクチャ方針・DDDとUE5のマッピング・設計上の意思決定 |
+| [docs/implementation.md](docs/implementation.md) | フォルダ階層・Blueprint責務詳細・データフロー・実装上の注意点 |
