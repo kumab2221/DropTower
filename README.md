@@ -47,5 +47,5 @@ Content/
 | ファイル | 内容 |
 |---|---|
 | [Docs/domain.md](Docs/domain.md) | ユビキタス言語・ドメインモデル・境界づけられたコンテキスト |
-| [docs/architecture.md](docs/architecture.md) | アーキテクチャ方針・DDDとUE5のマッピング・設計上の意思決定 |
-| [docs/implementation.md](docs/implementation.md) | フォルダ階層・Blueprint責務詳細・データフロー・実装上の注意点 |
+| [Docs/architecture.md](Docs/architecture.md) | ーキテクチャ方針・DDDとUE5のマッピング・設計上の意思決定 |
+| [Docs/implementation.md](Docs/implementation.md) | フォルダ階層・Blueprint責務詳細・データフロー・実装上の注意点 |
